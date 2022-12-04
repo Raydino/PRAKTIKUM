@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Javascript</title>
+</head>
+<body>
+    <h2>Menghitung Luas Dan Keliling Lingkaran</h2>
+    <span id="pi"></span>
+    <br>
+    <span id="jari"></span>
+    <br>
+    <span id="luas"></span>
+    <br>
+    <span id="keliling"></span>
+
+    <script>
+        // Buat Variabel Phi
+        const phi = 3.14;
+        // Buat Variabel Jari-Jari
+        let r = 10;
+        // Buat Rumus Luas Luas Lingkaran
+        let Luas = phi * (r * r);
+        // Buat Rumus Keliling Luas Lingkaran
+        let Keliling = phi * (2 * r);
+
+        document.getElementById("pi").innerHTML = "phi : " + phi ;
+        document.getElementById("jari").innerHTML = "radius : " + r ;
+        document.getElementById("luas").innerHTML = "luas : " + Luas ;
+        document.getElementById("keliling").innerHTML = "keliling : " + Keliling ;
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
