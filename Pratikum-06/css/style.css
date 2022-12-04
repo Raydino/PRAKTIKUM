@@ -1,0 +1,47 @@
+body {
+    background-color:beige;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+#header {
+    background-color:burlywood;
+    text-align: center;
+    padding: 20px;
+}
+
+#header h1 {
+    color:blueviolet;
+}
+
+#header blockquote {
+    background-color:beige;
+}
+
+menu ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.bigger {
+    font-size: 20px;
+}
+
+.fp::first-letter {
+    font-size: 50px;
+    color:blueviolet;
+}
+
+.koleksi {
+    text-align: center;
+}
+
+.koleksi img {
+    width: 20%;
+}
